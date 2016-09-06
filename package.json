@@ -1,0 +1,44 @@
+{
+  "name": "karma-preprocessor-stryker-test",
+  "version": "0.0.0",
+  "description": "A test repo for using karma preprocessors with stryker",
+  "main": "directive.js",
+  "dependencies": {
+    "jasmine-core": "^2.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma": "^1.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "stryker-api": "^0.2.0",
+    "stryker": "^0.4.2",
+    "stryker-karma-runner": "^0.2.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.0",
+    "karma": "^1.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "stryker": "^0.4.2",
+    "stryker-api": "^0.2.0",
+    "stryker-karma-runner": "^0.2.1"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nicojs/karma-preprocessor-stryker-test.git"
+  },
+  "keywords": [
+    "stryker",
+    "karma"
+  ],
+  "author": "nicojs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicojs/karma-preprocessor-stryker-test/issues"
+  },
+  "homepage": "https://github.com/nicojs/karma-preprocessor-stryker-test#readme"
+}
